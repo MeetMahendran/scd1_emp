@@ -19,7 +19,7 @@ drop table emp_scd1;
 
 select * from EMP_SCD1;
 select * from emp;
-/
+//
 create or replace procedure sp_scd1 as
 cursor cu_scd1 is
 select empno,ename,job,mgr,hiredate,sal,comm,d.deptno,dname,loc from emp e,dept d 
