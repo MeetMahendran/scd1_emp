@@ -1,5 +1,5 @@
 create sequence sq_dim_key;
----Merge Statement:
+ ---Merge Statement:
 /
 create or replace procedure sp_scd11 as
 begin
